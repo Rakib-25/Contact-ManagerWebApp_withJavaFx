@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: #fdfcfc;
+    -fx-padding: 20;
+}
+
+Label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+TextField {
+    -fx-border-color: #e70a0a;
+    -fx-border-radius: 4;
+    -fx-padding: 6;
+    -fx-font-size: 13px;
+}
+
+Button {
+    -fx-background-color: #131313;
+    -fx-text-fill: white;
+    -fx-border-radius: 4;
+    -fx-font-size: 13px;
+    -fx-background-radius: 4;
+    -fx-padding: 6;
+
+}
+
+Button:hover {
+    -fx-background-color: #be0f0f;
+
+}
+
+ListView {
+    -fx-border-color: #ea0707;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-background-color: #f8f7f7;
+    -fx-text-fill: white;
+    -fx-wrap-text: red;
+    -fx-font-size: 13px;
+    -fx-background-radius: 4;
+}
